@@ -44,7 +44,7 @@ CodeAlpha_ArtificialIntelligenceChatbot/
 │   └── chatbot.java       # Main GUI and application logic
 │
 └── README.md              # Documentation
-
+```
 🚀 Getting Started
 Prerequisites
 Ensure you have the Java Development Kit (JDK) installed:
@@ -53,8 +53,8 @@ java -version
 Setup & Execution
 Clone the repository:
 Bash
-   git clone [https://github.com/YOUR_USERNAME/CodeAlpha_ArtificialIntelligenceChatbot.git](https://github.com/YOUR_USERNAME/CodeAlpha_ArtificialIntelligenceChatbot.git)
-Navigate to the source directory:
+   git clone 
+Navigate to the source directory:https://github.com/Thepenguin07/CodeAlpha_Artificial-Intelligence-Chatbot/edit/main/README.md
 Bash
    cd CodeAlpha_ArtificialIntelligenceChatbot/src
 Compile the application:
