@@ -11,7 +11,7 @@ public class chatbot extends JFrame implements ActionListener {
     private final Map<String, String[]> responses = new HashMap<>();
 
     public chatbot() {
-        setTitle("CoreAlpha Chatbot");
+        setTitle("Chatbot");
         setSize(520, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -52,7 +52,7 @@ public class chatbot extends JFrame implements ActionListener {
         inputPanel.add(sendBtn, BorderLayout.EAST);
         add(inputPanel, BorderLayout.SOUTH);
 
-        appendBot("Hiii! Welcome to CoreAlpha!");
+        appendBot("Welcome");
         appendBot("I am your Java learning buddy. You can ask me about:");
         appendBot("  - Java basics\n  - OOP concepts\n  - Classes and Interfaces\n  - Inheritance\n  - Exceptions and Error handling");
         appendBot("So... what are we learning today?");
@@ -179,3 +179,4 @@ public class chatbot extends JFrame implements ActionListener {
         SwingUtilities.invokeLater(chatbot::new);
     }
 }
+
