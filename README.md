@@ -1,16 +1,24 @@
 # CodeAlpha_Artificial-Intelligence-Chatbot
+
 A lightweight, interactive, Java-based desktop chatbot designed to act as an educational assistant for developers learning Java and Object-Oriented Programming (OOP) fundamentals. Developed as part of the CodeAlpha Java Programming Internship (Task 3).
+
 🚀 Features
 Desktop GUI Interface: Built entirely using Java Swing (JFrame, JTextArea, JTextField) with a modern, clean color palette and automatic scroll-down functionality.
+
 Natural Language Processing (NLP) Sanitization: Cleans and processes user inputs (lowercase conversion, regex-based punctuation removal) to match user intent accurately.
+
 Smart Rule-Based Logic: Leverages mapped keyword matrices to detect topics such as OOP pillars, interfaces, inheritance, and exception handling.
+
 Dynamic Responses: Utilizes a randomized response generation algorithm to make conversations feel organic and conversational rather than rigid.
+
 Error & Fallback Handling: Safely routes unrecognized queries to a fallback module that guides users back to supported topics.
+
 🛠️ Tech Stack & Concepts Used
 Language: Java (JDK 8 or higher)
 GUI Framework: Java Swing & AWT (Abstract Window Toolkit)
 Data Structures: HashMap for dynamic response routing, ArrayList/Arrays for randomized options.
 OOP Concepts: Encapsulation, Event Handling (Action Listeners), and Modular Architecture.
+
 📂 Project Structure
 Plaintext
 CodeAlpha_ArtificialIntelligenceChatbot/
