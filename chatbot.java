@@ -19,7 +19,7 @@ public class chatbot extends JFrame implements ActionListener {
 
         buildResponses();
 
-        JLabel header = new JLabel("  CoreAlpha — Java Assistant", JLabel.LEFT);
+        JLabel header = new JLabel("Java Assistant", JLabel.LEFT);
         header.setFont(new Font("SansSerif", Font.BOLD, 15));
         header.setForeground(Color.WHITE);
         header.setBackground(new Color(60, 120, 200));
